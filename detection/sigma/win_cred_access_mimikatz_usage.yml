@@ -1,0 +1,46 @@
+title: Mimikatz Usage Detected
+id: 5d8b2f4c-9e7a-4a3d-b6f1-8c2d0e7a5f3b
+status: experimental
+description: Detects Mimikatz execution via command-line parameters (sekurlsa::logonpasswords) or the mimikatz binary name being present in the process command line.
+author: netsecid
+date: 2026-08-07
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection_mimikatz_cmd:
+    CommandLine|contains:
+      - 'sekurlsa::logonpasswords'
+      - 'sekurlsa::'
+      - 'lsadump::sam'
+      - 'lsadump::secrets'
+      - 'lsadump::dcsync'
+      - 'lsadump::'
+      - 'kerberos::golden'
+      - 'kerberos::list'
+      - 'kerberos::ptt'
+      - 'crypto::capi'
+      - 'vault::cred'
+      - 'vault::list'
+      - 'token::elevate'
+      - 'misc::skeleton'
+      - 'privilege::debug'
+  selection_mimikatz_binary:
+    Image|endswith: '\mimikatz.exe'
+  selection_mimikatz_renamed:
+    CommandLine|contains:
+      - 'mimikatz'
+      - 'mimikatz.exe'
+      - 'Invoke-Mimikatz'
+      - 'DumpCreds'
+  filter_known_tools:
+    CommandLine|contains:
+      - 'Set-MpPreference'
+  condition: (selection_mimikatz_cmd or selection_mimikatz_binary or selection_mimikatz_renamed) and not filter_known_tools
+falsepositives:
+  - None expected with these specific Mimikatz command-line parameters
+  - Some red team or penetration testing tools may trigger if used legitimately
+level: high
+tags:
+  - attack.credential_access
+  - attack.t1003.001
