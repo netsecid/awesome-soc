@@ -21,6 +21,9 @@ A hand-picked collection of tools, platforms, frameworks, and resources for Secu
 - [Purple Team & Adversary Emulation](#purple-team--adversary-emulation)
 - [Case Management & Ticketing](#case-management--ticketing)
 - [SOC Toolkits & Distributions](#soc-toolkits--distributions)
+- [People](#people)
+- [Blogs & Newsletters](#blogs--newsletters)
+- [Certifications](#certifications)
 - [Learning & Training](#learning--training)
 - [Books & Reading](#books--reading)
 
@@ -263,6 +266,66 @@ A hand-picked collection of tools, platforms, frameworks, and resources for Secu
 - [Security Onion](https://securityonionsolutions.com/) — Full NSM, SIEM, and threat hunting platform with Elastic, Zeek, Suricata, and Wazuh integrated
 - [Tsurugi Linux](https://tsurugi-linux.org/) — Japanese Linux distribution focused on digital forensics, incident response, and malware analysis
 - [Win-KeX](https://www.kali.org/docs/wsl/win-kex/) — Kali Linux in WSL2 with a GUI desktop for Windows environments
+
+## People
+
+Well-known practitioners, researchers, and educators worth following in the SOC / blue team space.
+
+- [Anton Chuvakin](https://x.com/anton_chuvakin) — Former Gartner VP; SIEM and log management pioneer, and one of the most influential voices on SOC analytics and measurement
+- [Carlos Perez](https://github.com/darkoperator) — Long-time threat hunter, detection engineer, and PowerShell security expert
+- [Chris Crowley](https://www.sans.org/profiles/christopher-crowley) — SANS Senior Instructor, SOC consultant, and author of the SOC-Class blue team course
+- [David Bianco](https://github.com/davidbianco) — Detection engineer best known for the Pyramid of Pain, a foundational model for SOC and intel teams
+- [Florian Roth](https://github.com/Neo23x0) — Detection engineer behind Sigma, high-quality YARA rules, and the THOR scanner
+- [Jake Williams](https://www.renditioninfosec.com/) — Incident responder and EDR expert with a sharp, no-nonsense take on detection and response
+- [John Strand](https://github.com/strandjs) — Founder of Black Hills Information Security, blue team advocate, and prolific speaker on SOC operations
+- [Lesley Carhart](https://tisiphone.net/) — DFIR veteran (Dragos) and outspoken voice on incident response, threat hunting, and analyst wellbeing
+- [Mauricio Velazco](https://github.com/mvelazc0) — Cloud detection engineer behind Stratus Red Team, focused on AWS/Azure attack detection
+- [Olaf Hartong](https://github.com/olafhartong) — Threat hunter and Sigma contributor known for Sysmon and EventLog tooling
+- [Richard Bejtlich](https://taosecurity.blogspot.com/) — Author of *The Practice of Network Security Monitoring*; former CSO and Mandiant executive
+- [Rob van Os](https://x.com/RobvanOs) — SOC operations expert and educator focused on blue teaming and security monitoring
+- [Roberto Rodriguez](https://github.com/Cyb3rWard0g) — Threat hunter and OTRF founder; creator of the Mordor datasets
+
+## Blogs & Newsletters
+
+Follow these for threat research, detection content, and hands-on SOC analysis.
+
+- [BleepingComputer](https://www.bleepingcomputer.com/) — Daily security news and threat coverage widely used by SOC teams for quick context
+- [CrowdStrike Blog](https://www.crowdstrike.com/blog/) — Threat research and adversary reports from CrowdStrike's intel and hunting teams
+- [Dark Reading](https://www.darkreading.com/) — Security news and analysis with a strong practitioner angle
+- [Detection at Scale](https://detectionatscale.com/) — Practical writing on building, testing, and maintaining detection programs
+- [Elastic Security Labs](https://www.elastic.co/security-labs/) — In-depth malware analysis, detection research, and YARA/Sigma releases
+- [Krebs on Security](https://krebsonsecurity.com/) — Investigative security journalism covering breaches, scams, and cybercrime infrastructure
+- [Mandiant Blog](https://www.mandiant.com/resources/blog) — Threat intel reports, APT analyses, and IR lessons from Mandiant's frontline
+- [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/) — Microsoft threat research, detections, and security product updates
+- [SANS Internet Storm Center](https://isc.sans.org/) — Daily diaries and handler podcasts on current threats; often first to report new attacks
+- [Splunk Security Blog](https://www.splunk.com/en_us/blog/security.html) — Detection content, use cases, and security analytics guidance from Splunk
+- [TaoSecurity](https://taosecurity.blogspot.com/) — Richard Bejtlich's long-running blog on NSM, network defence, and security history
+- [The DFIR Report](https://thedfirreport.com/) — Detailed write-ups of real intrusions with IOCs and detection guidance; a must-read
+- [The Hacker News](https://thehackernews.com/) — Popular infosec news site covering vulnerabilities, breaches, and security research
+- [Threat Hunter Playbook](https://threathunterplaybook.com/) — Open-source threat hunting procedures and analytics built around ATT&CK
+- [Unit 42](https://unit42.paloaltonetworks.com/) — Palo Alto's threat research team publishing APT reports and campaign analyses
+- [VX-Underground](https://vx-underground.org/) — Collection of malware samples, source code, and research papers
+
+## Certifications
+
+SOC-relevant certifications, from entry-level analyst to management and cloud.
+
+- [AWS Certified Security – Specialty](https://aws.amazon.com/certification/certified-security-specialty/) — Cloud security cert validating AWS-specific detection, response, and IAM skills
+- [CEH (Certified Ethical Hacker)](https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh-certification/) — Entry-level offensive cert useful for understanding attacker techniques from the defender side
+- [CISM (Certified Information Security Manager)](https://www.isaca.org/credentialing/cism) — Management-focused cert covering governance, risk, and incident management
+- [CISSP](https://www.isc2.org/certifications/cissp) — Industry-standard security management and engineering certification
+- [CompTIA CASP+](https://www.comptia.org/certifications/comptia-advanced-security-practitioner) — Advanced practitioner cert for security operations and architecture
+- [CompTIA CySA+](https://www.comptia.org/certifications/cybersecurity-analyst) — Analyst-level cert focused on monitoring, detection, and response; a direct SOC fit
+- [CompTIA Security+](https://www.comptia.org/certifications/security) — Entry-level foundation cert covering core security concepts
+- [GIAC GDAT](https://www.giac.org/certifications/defending-advanced-threats-gdat/) — Blue team cert focused on defending against advanced persistent threats
+- [GIAC GCFA](https://www.giac.org/certifications/certified-forensic-analyst-gcfa/) — Advanced digital forensics and incident response certification
+- [GIAC GCIA](https://www.giac.org/certifications/certified-intrusion-analyst-gcia/) — Network intrusion analysis and packet-level detection certification
+- [GIAC GCIH](https://www.giac.org/certifications/certified-incident-handler-gcih/) — Incident handling and response cert with hands-on labs
+- [GIAC GCTI](https://www.giac.org/certifications/cyber-threat-intelligence-gcti/) — Threat intelligence analysis and CTI tradecraft certification
+- [GIAC GSEC](https://www.giac.org/certifications/security-essentials-gsec/) — Entry-level GIAC cert on information security fundamentals
+- [Microsoft Azure Security Engineer (AZ-500)](https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/) — Azure-focused cert covering identity, platform protection, and security operations
+- [OSCP](https://www.offsec.com/courses/pen-200/) — Hands-on penetration testing cert that sharpens understanding of attack paths
+- [Security Blue Team BTL1](https://www.securityblue.team/why-btl1) — SOC-specific cert with hands-on blue team labs covering SIEM, DFIR, and phishing analysis
 
 ## Learning & Training
 
