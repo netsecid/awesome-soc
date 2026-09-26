@@ -237,6 +237,7 @@ A hand-picked collection of tools, platforms, frameworks, and resources for Secu
 - [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) — Library of testable, MITRE ATT&CK-mapped atomic tests for validating detection coverage
 - [Caldera](https://github.com/mitre/caldera) — MITRE's scalable automated adversary emulation system for running autonomous breach simulations
 - [Cobalt Strike](https://www.cobaltstrike.com/) — Adversary simulation and red team operations platform for testing detection and response capabilities
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) — Open-source (GPLv3) autonomous AI penetration-testing CLI with 50 specialist agents and 140+ offensive tools over MCP; runs on a local or cloud LLM, useful for validating detection via adversary emulation
 - [Infection Monkey](https://www.akamai.com/infectionmonkey) — Akamai's open-source breach and attack simulation tool for testing lateral movement and propagation
 - [Metasploit Framework](https://www.metasploit.com/) — Industry-standard penetration testing and exploit development framework for testing defence controls
 - [Prelude Operator](https://docs.prelude.org/) — Autonomous agent-based adversary emulation platform for continuous security validation
